@@ -1,5 +1,6 @@
 body{
     font-family: 'Mynerve', cursive;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -10,8 +11,9 @@ h1{
 p{
     font-size: 30px;
 }
-section{
+.kire{
     display: flex;
+    margin-bottom: 150px;
 }
 .width{
     width: 50%;
@@ -27,4 +29,29 @@ section{
     color: aquamarine;
     font-weight: bold;
     border-radius: 5px; 
+}
+.banner{
+    background-image: url(images/icons/insta.png);
+    background-repeat: no-repeat;
+}
+.new{
+    background-image: url(images/icons/react.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.iiuc{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(0, 128, 128);
+}
+.pagla{
+    border-right: 10px dotted;
+    border-image: lineaer-gradient(blue, white);
+    border-image-slice: 9;
+}
+footer p{
+    text-align: center;
 }
